@@ -12,6 +12,10 @@ import re
 import xlwt 
 from xlrd import open_workbook
 
+#Hello and thank you for viewing my bot's source code! 
+#Feel free to read and analyze my code
+#If you're interested in any clarifications, feel free to contact me via discord, my username is kittisama#7348
+
 bot = commands.Bot(command_prefix='>')
 logOut = 0
 def emojif(word):
@@ -217,29 +221,10 @@ async def listSongs(ctx, folder):
     for text in message:
         await ctx.send(text)
 
-#@bot.command()
-#async def spam(ctx):
-#    while True:
-#        await ctx.send(".bruh")
-
 @bot.command()
 async def me(ctx):
     msg = await ctx.send(ctx.author)
     print(ctx.author)
-
-
-
-
-#A:/cool XD stuff that i make/shitstuff/very very bad photos/blueheart.png
-#@bot.command()
-#async def sauce(ctx):
-#    print(ctx.author.name)
-#    if ctx.author.name != "MarShesh":
-#        im = ImageGrab.grab()
-#        im.save("meow.png")
-#        await ctx.send(file=discord.File(fp="A:/Code/python/Discord Bot/meow.png"))
-#    else:
-#        await ctx.send("no")
 
 
 # 0 = playing, 1 = winning, 2 = losing
@@ -587,5 +572,4 @@ async def removeLiked(ctx, song):
 
     Sheets.objectList.clear()
 
-bot.run('NTcyMjgwODA3OTYwMzQ2NjI1.XP0dcA.EXY-1DvG4OMXw5baEjLUmwW9hws')
-#https://discordapp.com/oauth2/authorize?client_id=572280807960346625&scope=bot&permissions=8
+bot.run("my token")
