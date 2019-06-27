@@ -21,6 +21,7 @@ An example of a command: >someRandomCommand
 \>emojify (text)
 This command will send what was in (text) as discord text emoji.
 
+NOTICE: All voice commands only work when the bot is running on my computer
 
 \>streamSongs (folder) (specific song)
 This command will either play a random song from (folder), or, if (specific song) is assigned,
