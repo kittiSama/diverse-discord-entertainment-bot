@@ -1,7 +1,7 @@
 # diverse-discord-entertainment-bot
 A diverse discord bot I have created for discord's 1st hack week. 
 
-The bot features various commands which I made for fun and maybe even win the grand prize. 
+The bot features various commands which I made for fun and a chance to even win the grand prize. 
 I had attempted to use many different discord features, such as normal text, voice chat, reactions, and sending images.
 
 NOTICE: some features of the bot can only work when the bot is running on my computer, so in order to test those features,
@@ -46,7 +46,7 @@ and lastly,
 plays a random song from the user's own liked songs
 
 pressing the black square reaction will skip the song and play the next one on the queue
-the same will happen with the command
+the same will also happen with the command
 \>skip
 
 
